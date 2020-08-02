@@ -18,3 +18,16 @@ Git is one of the most popular tools for version control system. you can pull co
 - Configure git path
   - `Manage Jenkins` > `Global Tool Configuration` > `git`
 
+-----------------------------------------------------------------------------------------
+Git for Windows :
+download from https://git-scm.com/download/win
+
+Git for Linux
+sudo apt install git -y
+git --version
+
+-----------------------------------------------------------------------------------------
+VSCode for use as an editor , a diff tool and a merge tool
+https://code.visualstudio.com/
+
+Shell Scripting

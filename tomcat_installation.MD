@@ -28,7 +28,7 @@
    ```
    
   To check tomcat Version:
-  cd tomcat/lib 
+  cd opt/tomcat/lib 
 java -cp catalina.jar org.apache.catalina.util.ServerInfo
 
   #### Check point :
@@ -72,7 +72,7 @@ Add below roles in
 	<role rolename="manager-jmx"/>
 	<role rolename="manager-status"/>
 	<user username="admin" password="admin" roles="manager-gui, manager-script, manager-jmx, manager-status"/>
-	<user username="testingworld" password="testingworld" roles="manager-script"/>
+	<user username="deployer" password="deployer" roles="manager-script"/>
 	<user username="tomcat" password="s3cret" roles="manager-gui"/>
    ```
 1. Restart serivce and try to login to tomcat application from the browser. This time it should be Successful

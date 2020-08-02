@@ -104,6 +104,14 @@ cat /var/lib/jenkins/secrets/initialAdminPassword
 1. Build job
 1. Check "console output"
 
+------------------------------------------------------------------------------
+Create User and Manage Roles
+Add Plugins : Roles Strategy Plugin (Role-based Authorization Strategy)
+https://plugins.jenkins.io/role-strategy/
+
+Manage Jenkins : Configure Global Security
+ 
+
 
 
 
